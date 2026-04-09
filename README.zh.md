@@ -6,6 +6,14 @@
 
 **[English README](README.md)**
 
+## 截图
+
+[DidClaw](https://github.com/) 桌面端在相同图数据之上提供 **认知地图（实验性）** 界面：力导向网络视图，以及带高频话题与关联边的列表面板。
+
+![话题图 — 网络视图](assets/cognitive-map-network.png)
+
+![话题图 — 话题与关联面板](assets/cognitive-map-panel.png)
+
 ## 安装
 
 ```bash

@@ -9,6 +9,14 @@ suitable for injection into `AGENTS.md` or similar agent context files.
 Extracted from the [DidClaw](https://github.com/) client (LCLAW monorepo) for reuse
 and standalone publishing. **Zero runtime dependencies.**
 
+## Screenshots
+
+The [DidClaw](https://github.com/) desktop app includes a **Cognitive Map (Experimental)** UI on top of the same graph data: a force-directed network and a structured panel with hot topics and associations.
+
+![Topic graph — network view](assets/cognitive-map-network.png)
+
+![Topic graph — topics & associations panel](assets/cognitive-map-panel.png)
+
 ## Install
 
 ```bash
