@@ -1,5 +1,7 @@
 # topic-memory-graph
 
+**[中文说明](README.zh.md)**
+
 TypeScript library that builds a **topic graph** from chat text (with simple decay,
 associations, and optional mood/trail signals) and renders a **Markdown section**
 suitable for injection into `AGENTS.md` or similar agent context files.
