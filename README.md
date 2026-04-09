@@ -60,7 +60,7 @@ narrow focus vs expansive vs low-energy). They are not clinical sentiment scores
 
 ## License
 
-AGPL-3.0 — same as the parent LCLAW repository. See `LICENSE`.
+[MIT](LICENSE). (The wider LCLAW monorepo may use other licenses for unrelated code.)
 
 ## Developing this package
 

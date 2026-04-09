@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Topic graph with decay and markdown memory sections for agent context (pheromone-style cognitive map). Zero runtime dependencies.",
   "type": "module",
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "author": "DidClaw / LCLAW contributors",
   "repository": {
     "type": "git",
