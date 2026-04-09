@@ -1,0 +1,46 @@
+{
+  "name": "topic-memory-graph",
+  "version": "0.1.0",
+  "description": "Topic graph with decay and markdown memory sections for agent context (pheromone-style cognitive map). Zero runtime dependencies.",
+  "type": "module",
+  "license": "AGPL-3.0",
+  "author": "DidClaw / LCLAW contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didclawapp-ai/topic-memory-graph.git"
+  },
+  "keywords": [
+    "agent",
+    "memory",
+    "topic-graph",
+    "openclaw",
+    "agents-md",
+    "cognitive-map"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "pnpm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
